@@ -154,7 +154,7 @@ ul{
     
     
     /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: <= 600px) {
+@media only screen and (max-width: 600px) {
     .img-perfil{
         width: 45vw;
         height: 25vh;
@@ -221,7 +221,7 @@ ul{
     }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: <= 600px) {
+@media only screen and (min-width: 600px) {
     .img-perfil{
         width: 45vw;
         height: 25vh;
@@ -288,7 +288,7 @@ ul{
     }
 }
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: <= 768px) {
+@media only screen and (min-width: 768px) {
     .img-perfil{
         
         width: 25vw;
@@ -358,7 +358,7 @@ ul{
     }
 }
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: <= 992px) {
+@media only screen and (min-width: 992px) {
     .img-perfil{
         
         width: 25vw;
@@ -427,7 +427,7 @@ ul{
     }
 }
 /* Extra large devices (large laptops and desktops, 1165px and up) */
-@media only screen and (min-width: <= 1165px) {
+@media only screen and (min-width: 1165px) {
     .img-perfil{
         
         width: 32vw;
