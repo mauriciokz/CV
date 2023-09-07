@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: #ffffff;
+}
+.hr{
+    text-align: right;
+    color: orange;
+}
+
+.hr-negro{
+    text-align: center;
+    color: black;
+    
+}
+
+.contenedor {
+    width: 100vw;
+    display: flex;
+  }
+  
+  .column {
+    flex-basis: 50%;
+    
+  }
+  
+  .row {
+    width: 100%;
+  }
+  
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+ 
+ul{
+    
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 10px;
+}
+ 
+ 
+.img-perfil{
+    text-align: center;
+    background-color: #272e3f;
+    width: 35vw;
+    
+}
+
+.img{
+    
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50rem;
+
+}
+
+.habilidades-personales{
+    background-color: #1e1e23;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 35vw;
+    height: 20vh;
+
+}
+
+.educacion_y_referencias{
+    text-align: right;
+    background-color: #1e1e23;
+    color: #ffffff;
+    font-size: 20px;
+    width: 35vw;
+    height: 80vh;
+    border: 0px;
+    padding: 10px;
+}
+
+.cuadro_amarillo{
+    width: 100px;
+    height: 25px;
+    background-color: yellow;
+    border-radius: 6px;
+}
+.contacto{
+    
+    background-color: #1e1e23;
+    color: #ffffff;
+    padding-top: 15px;;
+    padding-left: 15px;
+    font-size: 20px;
+    width: 35vw;
+    height: 50vh;
+    
+}
+
+
+
+.Nombre_y_puesto{
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #fec900;
+    width: 45vw;
+    height: 25vh;
+    padding: 1rem;
+    padding-top: 15px;
+    
+}
+
+.descripción-perfil{
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    width: 40vw;
+    height: 30vh;
+    padding-left: 10px;
+    
+    
+}
+
+.experiencia{
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    width: 45vw;
+    height: 100vh;
+    padding-left: 10px;
+    
+}
+
+.habilidades-software{
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100vw;
+    height: 25vh;
+    padding-left: 10px;
+    
+    
+}
+
+@media (min-width: 375px) {
+    .img-perfil{
+        
+        width: 45vw;
+        height: 25vh;
+        
+    }
+    
+    .img{
+        
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50rem;
+    
+    }
+    
+    .habilidades-personales{
+        padding-top: 15px;
+        padding-left: 15px;
+        width: 45vw;
+        height: 40vh;
+    
+    }
+    
+    .educacion_y_referencias{
+        font-size: 20px;
+        width: 45vw;
+        height: 120vh;
+        padding: 10px;
+    }
+    
+    
+    }
+    .contacto{
+        width: 45vw;
+        height: 60vh;
+        
+    }
+    
+    
+    
+    .Nombre_y_puesto{
+        width: 100vw;
+        height: 25vh;
+        padding-top: 15px;
+        
+    }
+    
+    .descripción-perfil{
+        width: 100vw;
+        height: 45vh;
+        padding-left: 10px;
+        
+        
+    }
+    
+    .experiencia{
+        width: 100vw;
+        height: 130vh;
+        padding-left: 10px;
+        
+    }
+    
+    .habilidades-software{
+        width: 100vw;
+        height: 25vh;
+        padding-left: 10px;
+        
+        
+    }
+  }
