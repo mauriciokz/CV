@@ -8,7 +8,8 @@
   /* Estilos para cada fila */
   .fila {
     height: 100vh;
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(1fr, 1fr, 1fr));
     align-items: center;
     justify-content: center;
     font-size: 22px;
