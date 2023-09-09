@@ -3,13 +3,12 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    
   }
   
   /* Estilos para cada fila */
   .fila {
-    height: 100vh;
-    overflow: auto;
-    scroll-snap-type: y mandatory;
+    height: 100%; 
     display: block;
     grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
     align-items: center;
@@ -62,21 +61,32 @@
   }
   
   .portafolio{
-      display: grid;
-      grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    display:flex;
+    overflow: auto;
+    flex-direction:row;
+    justify-content:space-between;
+    width:100%;
+    border: 10px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius: 15px;
+    font-family: sans-serif;
+    
+    
 
   }
 
   .portafolio img {
-      width: 200px;
-      height: 200px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    justify-content:space-between;
+    border-radius: 35px;
+       
   }
   .portafolio p {
-    width: 200px;  
-    
-
-    background-color: #000000;
-    color: #ffffff;
-    opacity: 70%;
+    background: #6699ff;
+    border-radius:0 0 15px 15px;
+    padding: 10px;
+    text-align:center;
 
 }
