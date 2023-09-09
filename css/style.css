@@ -7,12 +7,15 @@
   
   /* Estilos para cada fila */
   .fila {
-    height: 100%;
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
     display: block;
     grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
     align-items: center;
     justify-content: center;
     font-size: 22px;
+    
   }
   
   /* Estilos para filas ocultas */
@@ -70,7 +73,7 @@
   }
   .portafolio p {
     width: 200px;  
-    position: static;
+    
 
     background-color: #000000;
     color: #ffffff;
