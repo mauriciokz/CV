@@ -6,7 +6,9 @@
     
   }
   footer {
-    padding: 15px;
+    background-color: #000000;
+    color: #fff;
+    padding: 35px;
   }
   
   /* Estilos para cada fila */
@@ -108,6 +110,7 @@
 
 
 .contenedor-softwares{
+  height: 70vh;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -135,7 +138,7 @@
   transform: translate(-50%, -50%);
   font-size: 1.5em;
   z-index: 1;
-  font-weight: 500;
+  
 }
 
 .contenedor-softwares .progreso h5 span{
@@ -150,7 +153,6 @@
   transform: translateX(-50%);
   z-index: 1;
   font-size: 1.0em;
-  font-weight: 100;
   color: var(--clr);
   text-transform: uppercase;
   text-align: center;
@@ -185,3 +187,4 @@
   transform: rotate(calc(((var(--i) - 0) * 0.01turn)));
 
 }
+
