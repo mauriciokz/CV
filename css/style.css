@@ -68,19 +68,25 @@
     width:100%;
     border: 10px solid lightgray;
     box-shadow: 2px 2px 8px 4px #d3d3d3d1;
-    border-radius: 15px;
+    border-radius: 35px;
     font-family: sans-serif;
     
     
 
   }
-
-  .portafolio img {
-    width: 200px;
-    height: 200px;
+  .portafolio div {
+    width: 100%;
+    height: 100%;
     padding: 10px;
     justify-content:space-between;
     border-radius: 35px;
+       
+  }
+  .portafolio img {
+    width: 200px;
+    height: 200px;
+    justify-content:space-between;
+    border-radius: 35px 35px 0px 0px;;
        
   }
   .portafolio p {
