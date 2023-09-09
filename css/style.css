@@ -98,8 +98,90 @@
   }
   .portafolio p {
     background: #6699ff;
+    width: 180px;
     border-radius:0 0 15px 15px;
     padding: 10px;
     text-align:center;
+
+}
+
+
+
+.contenedor-softwares{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 60px;
+   
+}
+
+.contenedor-softwares .progreso{
+  position: relative; 
+  
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: #fff;
+  background: #444 linear-gradient(to right, transparent 50%,
+  var(--clr) 0);
+}
+
+.contenedor-softwares .progreso h5{
+  position: absolute; 
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+  z-index: 1;
+  font-weight: 500;
+}
+
+.contenedor-softwares .progreso h5 span{
+  font-size: 0.65em;
+  font-weight: 400;
+}
+
+.contenedor-softwares .progreso h4{
+  position: absolute; 
+  top: 78%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  font-size: 1.0em;
+  font-weight: 100;
+  color: var(--clr);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contenedor-softwares .progreso::before{
+  content: '';
+  display: block;
+  height: 100%;
+  margin-left: 50%;
+  transform-origin: left;
+  border-radius: 0 100% 100% 0/50%;
+
+}
+
+.contenedor-softwares .progreso::after{
+  content: '';
+  display: absolute;
+  inset: 10px;
+  border-radius: 50%;
+  background: #222;
+
+}
+
+.contenedor-softwares .progreso::before{
+  background: var(--clr);
+  transform: rotate(calc(((var(--i) - 50) * 0.01turn)));
+
+}
+.contenedor-softwares .progreso.less::before{
+  background: #444;
+  transform: rotate(calc(((var(--i) - 0) * 0.01turn)));
 
 }
