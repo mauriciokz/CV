@@ -9,6 +9,23 @@
     background-color: #000000;
     color: #fff;
     padding: 35px;
+    font-size: 20px;
+  }
+  .footer-icons img{
+    width: 80px;
+    height: 80px;
+  
+  }
+
+  .footer-icons ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:left;
+    gap: 15px;
+  }
+  .footer-icons li{
+    display:flex;
+    
   }
   
   /* Estilos para cada fila */
